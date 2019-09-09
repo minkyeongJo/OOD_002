@@ -2,7 +2,7 @@
 
 class LetDebug
 {
-public:
+public: 
 	void printNum() 
 	{
 		/*
@@ -30,8 +30,9 @@ int main()
 {
 	LetDebug* ㅣd = new LetDebug; // r객체 만들기
 	ㅣd->printNum(); // printNum 함수 호출
-	return 0;
+	std::cout << "201802159" << std::endl;
 	system("pause");
+	return 0;
 }
 
 // short 자료형은 -32768~32767이므로 32767에 1을 더하면 -32768이됨!
